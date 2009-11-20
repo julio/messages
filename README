@@ -1,0 +1,16 @@
+Messages
+========
+
+Externalizes strings. You can group messages by context. You can also
+use variable substitution.
+
+Create a messages.yml file under <app>/config/messages.yml
+
+Examples
+========
+
+Messages["books/rails"]                  # => "I'm a Rails book"
+Messages.get("books/mysterious", "good") # => "I'm a good book" (if mysterious is "I'm a {0} book")
+
+
+Copyright (c) 2009 Julio Santos, released under the MIT license

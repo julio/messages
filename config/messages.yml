@@ -1,0 +1,6 @@
+music:
+  wrong_album_name: The name of the album is bad.
+  call_cs: "Please call Customer Service at {0}"
+
+registration:
+  default: "Unfortunately, you cannot register."
